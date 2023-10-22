@@ -2,6 +2,7 @@ from tkinter import ttk, Tk
 from irregular_method import IrregularWindow
 from halving_sphere_method import SphereWindow
 from regular_method import RegWindow
+from polygons import PolyWindow
 
 
 class MainWindow(Tk):
@@ -22,8 +23,16 @@ class MainWindow(Tk):
             column=0, row=2, columnspan=3, padx=(50, 50), pady=(10, 10)
         )
 
-        self.button_sphere = ttk.Button(self, text="Сферические ландшафты")
+        self.button_sphere = ttk.Button(
+            self, text="Сферический ландшафт располовинивание"
+        )
         self.button_sphere["command"] = SphereWindow
         self.button_sphere.grid(
             column=0, row=3, columnspan=3, padx=(50, 50), pady=(10, 10)
+        )
+
+        self.button_sphere = ttk.Button(self, text="Сферический ландшафт полигоны")
+        self.button_sphere["command"] = PolyWindow
+        self.button_sphere.grid(
+            column=0, row=4, columnspan=3, padx=(50, 50), pady=(10, 10)
         )
