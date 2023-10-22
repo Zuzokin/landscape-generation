@@ -14,3 +14,5 @@ grid and spherical landscape by reducing and increasing hemispheres
 ### Spherical landscape
 ![Spherical landscape](img/sphere_example.PNG)
 
+### Spherical landscape with polygons
+![Spherical landscape](img/polygon_sphere_example.png)
