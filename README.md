@@ -1,7 +1,11 @@
 # landscape-generation
 
-Python application using the Tkinter library. Contains 3 methods of landscape generation: for regular grid, irregular
-grid and spherical landscape by reducing and increasing hemispheres
+Python application using the Tkinter library. Contains 4 methods of landscape generation:
++ for regular grid
++ irregular grid
++ spherical landscape by reducing and increasing hemispheres
++ spherical polygon landscape by randomization of vectors 
+
 
 # Examples
 
